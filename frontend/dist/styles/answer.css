@@ -1,0 +1,82 @@
+.answer {
+  padding: 20px;
+}
+
+.answers-pre-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.answers-pre-title span {
+  color: #6933DC;
+  margin-left: 15px;
+}
+
+.answers-pre-title img {
+  margin-left: 15px;
+}
+
+.answers-title {
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
+  font-size: 54px;
+  line-height: 65px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.answer-info {
+  margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#answer-info {
+  color: #6933DC;
+}
+
+.answers-title span {
+  color: #6933DC;
+}
+
+.answer-question-title {
+  margin-bottom: 40px;
+}
+
+.correct,
+.incorrect {
+  display: flex;
+}
+
+.correct {
+  border: 6px solid #5FDC33;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 13px 0 0;
+  transform: translateY(2px);
+  display: grid;
+  place-content: center;
+  min-width: 20px;
+}
+
+.incorrect {
+  border: 6px solid #DC3333;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 13px 0 0;
+  transform: translateY(2px);
+  display: grid;
+  place-content: center;
+  min-width: 20px;
+}
+
+.answer-correct {
+  color: #5FDC33;
+}
+.answer-incorrect {
+  color: #DC3333;
+}
